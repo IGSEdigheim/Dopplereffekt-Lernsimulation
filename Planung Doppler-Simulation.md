@@ -23,7 +23,8 @@ Wunsch des Lehrers: Nicht immer muss eine Simulation im Mittelpunkt stehen, die 
 - **Bewegtes Bild:** Der Sender fährt und sendet Kreiswellen aus. Am Ende stehen Kegel und Dreieck mit \(c\cdot t\), \(v_\mathrm{S}\cdot t\) und \(\alpha\). Das Bild läuft einmal ab, „Noch einmal abspielen“ startet es neu. Der Regler stellt die Machzahl von 1,2 bis 3,0 ein. Daneben steht die Herleitung \(\sin\alpha = \frac{c}{v_\mathrm{S}} = \frac{1}{\mathrm{Ma}}\) mit den aktuellen Werten, dazu eine aufklappbare Frage „spitzer oder breiter?“.
 - **Karte „Wann knallt es?“:** Regler für die Flughöhe von 1 bis 15 km, dazu eine Seitenansicht im richtigen Winkel. Ergebnis: \(x = \frac{h}{\tan\alpha}\) und die Zeit nach dem Überflug, vereinfacht mit \(c = 340\) m/s in jeder Höhe. Kontrollwert: Ma 2 und 10 km ergeben 17,3 km und 25 s.
 - **Karte „Auch Licht kann das“:** Tscherenkow-Leuchten (Licht in Wasser etwa 225 000 km/s) und der Peitschenknall.
-- Bei 1366 × 768 und 1920 × 1080 passt alles ohne Scrollen. Bei 1280 × 720 scrollt die rechte Spalte etwas, schmale Bildschirme zeigen alles untereinander.
+- Aufgeräumt am 22.11.2026 (rechte Spalte war zu gequetscht): Foto und Text im Verhältnis 0,78 : 1,5 statt 0,85 : 1,3, beide Karten gleich breit, Abstände und Überschrift wachsen mit dem Bildschirm. Beschriftungen, Knöpfe, die Aufklapp-Frage und der Kicker stehen in der Schrift der Bedienung, der Lesetext in der Leseschrift.
+- Bei 1366 × 768 und 1920 × 1080 passt alles ohne Scrollen. Bei 1280 × 720 scrollt die rechte Spalte etwas (27 px), schmale Bildschirme zeigen alles untereinander.
 
 ## Herleitung zum Mitmachen (Schritt 4)
 Das Feld „Herleitung“ nimmt die ganze Breite ein und hat drei Spalten:
@@ -66,6 +67,7 @@ Bis zur letzten Frage steht \(v_\mathrm{S}\) fest auf dem Beispielwert 68 m/s. D
 ## Stand
 - 20.11. vormittags: Die erste Fassung mit 4 Schritten liegt in Moodle (Kurs 644, cmid 36550).
 - 20.11. abends: Die zweite Fassung mit 5 Schritten und dem Ausblick als Zusatz ist vom Lehrer abgenommen. Das ZIP ist neu gebaut, der Klicktest am entpackten Paket lief mit 199 Prüfungen ohne Fehler. Um 23:10 ist das Paket in Kurs 644, cmid 36550, ersetzt. Die SHA1-Prüfsumme in Moodle stimmt mit dem ZIP überein. „Neuen Versuch erzwingen“ ist an, die Simulation öffnet im eigenen Fenster.
+- 22.11.: Neues Design der Vorlage (lernsimulation ec540a6): Kern, Zeichenhilfen und Design-CSS aus der Vorlage, Schriften Atkinson Hyperlegible Next und Source Serif 4 eingebettet; das Doppler-eigene CSS und das Thema bleiben (Speicherschlüssel weiter `-sim-2`). Ausblick aufgeräumt (siehe oben). Klicktest 150 von 151: Die neue Prüfung „Szene und Felder bleiben an ihrem Platz“ meldet Schritt 4, weil die Herleitung absichtlich nur ihr eigenes breites Feld zeigt. Paket in Kurs 644, cmid 36550, ersetzt. Seitdem ist der Ordner ein Git-Repository.
 
 ## Quellen
 - LEIFIphysik, Doppler-Effekt, 1. Fall: Der Sender bewegt sich (Screenshots `Herleitung Teil 1.png`, `Herleitung Teil 2.png`).
